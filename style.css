@@ -1,0 +1,95 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 3px 3px 4px #888888;
+    box-sizing: border-box;
+    z-index: 10;
+    height: 80px;
+    margin: 0px;
+    top:0;
+    position: fixed;
+}
+.image{
+    padding-left: 0px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 500px;
+    
+    margin-top: 15px;
+    margin-right: 40px;
+    justify-content: space-between;
+
+}
+.b1{
+    border-radius: 18px;
+    background-color:#00BAF2;
+    color: aliceblue;
+    width:108px;
+    height: 36px;
+    border: none;
+
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.part1{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+.part2{
+    display:flex;
+    flex-direction: row;
+    width:50%;
+    margin-top: 150px;
+    margin-left: 490px;
+}
+
+.img2 {
+    width: 120px;
+    height: 80px;
+    display: block;
+    margin-left: 20px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 50px;
+    margin-left:20px ;
+    
+  }
+  
+  p {
+    font-size: 25px;
+    text-align: left;
+    
+    line-height:1;
+    max-width: 600px;
+    margin-left: 20px;
+    text-wrap: 20px;
+    margin-top:5px ;
+  }
+
+  .btn{
+    border-radius: 40px;
+    width: 400px;
+    height:50px;
+    color:white;
+    background-color:black;
+  }
